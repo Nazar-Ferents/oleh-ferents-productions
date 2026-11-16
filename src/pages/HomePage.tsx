@@ -17,7 +17,7 @@ const HomePage = () => {
                     
                     `}>Oleh Ferents</h1>
                     <h3 className={`text-base md:text-2xl font-normal tracking-wide text-accent
-                    `}>Visual artist. Foggy reality</h3>
+                    `}>Where silence speaks. Digital Creation</h3>
                 </div>
                 {mainPhoto &&
                     <img className={`w-full absolute inset-0 h-full object-cover`}

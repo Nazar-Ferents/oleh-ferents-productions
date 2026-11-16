@@ -32,7 +32,7 @@ const AboutPage = () => {
                 <div className={`flex flex-col px-[24px] py-[8px] pb-[32px] md:py-0 md:pr-[64px] md:pl-0 justify-center items-start flex-1 gap-[24px]`}>
                     <h2 className={`font-primary text-[32px] md:text-[48px] font-normal leading-[1.15] text-text`}>Art as a language</h2>
                     <p className={`font-secondary text-[18px] leading-[1.7] text-muted`}>
-                        I don’t always have someone to talk to, so my art speaks for me. Every piece shows how I felt
+                        My art speaks for me. Every piece shows how I felt
                         at the moment I made it: heavy, quiet, lost or hopeful.
                         I’m not trying to explain these feelings, only to share them.
                         If you look at a work and feel a little of what I felt, it did its job.</p>
