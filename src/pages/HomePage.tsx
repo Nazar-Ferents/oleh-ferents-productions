@@ -16,7 +16,7 @@ const HomePage = () => {
                     <h1 className={`text-5xl md:text-7xl font-light uppercase tracking-widest text-text
                     
                     `}>Oleh Ferents</h1>
-                    <h3 className={`text-base md:text-xl font-normal tracking-wide text-accent
+                    <h3 className={`text-base md:text-2xl font-normal tracking-wide text-accent
                     `}>Visual artist. Foggy reality</h3>
                 </div>
                 {mainPhoto &&
@@ -70,7 +70,7 @@ const HomePage = () => {
                                 Photo manipulation, posters and digital art, each one built around a single emotion.
                                 Take your time and see which one speaks to you.
                                 </p>
-                            <Link to={'/gallery'} className={`bg-accent text-[#0a0a0b] py-[12px] px-[28px]
+                            <Link to={'/gallery'} className={`bg-accent text-bg py-[12px] px-[28px]
                             rounded-full hover:bg-accent-light transition text-center font-secondary`} >
                                 View gallery</Link>
                         </div>
