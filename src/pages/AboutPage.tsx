@@ -8,7 +8,7 @@ const AboutPage = () => {
         <div className={`flex flex-col items-center justify-center mt-[120px] mx-auto gap-[64px] w-full 
         max-w-[1400px] mb-[80px] px-[48px] `}>
             <div className={`flex items-center justify-between gap-[24px] bg-bg min-h-[460px] w-full `}>
-                <div className={`flex flex-col pl-[20px] justify-center items-start flex-1 gap-[24px]`}>
+                <div className={`flex flex-col pl-[64px] justify-center items-start flex-1 gap-[24px]`}>
                     <h1 className={`font-primary text-[48px] font-normal leading-[1.15] text-text`}>Hello, I’m Oleh</h1>
                     <p className={`font-secondary text-[18px] leading-[1.7] text-muted`}>
                         I’m a 21-year-old graphic design student and digital artist, originally from Ukraine
@@ -29,7 +29,7 @@ const AboutPage = () => {
                         src={Trapped.icon} alt={Trapped.title}/>
                 }
 
-                <div className={`flex flex-col pr-[20px] justify-center items-start flex-1 gap-[24px]`}>
+                <div className={`flex flex-col pr-[64px] justify-center items-start flex-1 gap-[24px]`}>
                     <h2 className={`font-primary text-[48px] font-normal leading-[1.15] text-text`}>Art as a language</h2>
                     <p className={`font-secondary text-[18px] leading-[1.7] text-muted`}>
                         I don’t always have someone to talk to, so my art speaks for me. Every piece shows how I felt
@@ -40,7 +40,7 @@ const AboutPage = () => {
 
             </div>
             <div className={`flex items-center justify-between gap-[24px] bg-bg min-h-[460px] w-full `}>
-                <div className={`flex flex-col pl-[20px] justify-center items-start flex-1 gap-[24px]`}>
+                <div className={`flex flex-col pl-[64px] justify-center items-start flex-1 gap-[24px]`}>
                     <h2 className={`font-primary text-[48px] font-normal leading-[1.15] text-text`}>Let’s work together</h2>
                     <p className={`font-secondary text-[18px] leading-[1.7] text-muted`}>
                         Alongside my studies I take on commissions, including logos and sign designs, and
