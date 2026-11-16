@@ -16,7 +16,7 @@ const Lightbox:FC<PropsType> = ({photo,closeAlbum,nextPhoto,prevPhoto}) => {
                 onClick={()=>{prevPhoto()}}
                 aria-label={"Previous photo"}
                 title={"Previous photo"}
-                className={` cursor-pointer text-muted left-[20px] absolute text-5xl 
+                className={` cursor-pointer text-muted left-[4px] md:left-[20px] absolute text-4xl md:text-5xl
                 hover:text-accent  transition p-[12px]`}>
                 {'<'}
 
@@ -26,15 +26,15 @@ const Lightbox:FC<PropsType> = ({photo,closeAlbum,nextPhoto,prevPhoto}) => {
                 onClick={()=>{closeAlbum()}}
                 aria-label={"Close"}
                 title={"Close"}
-                className={'cursor-pointer absolute text-2xl top-[10px] hover:text-accent transition right-[20px] ' +
-                    'text-muted p-[12px]'}>
+                className={'cursor-pointer absolute text-[36px] top-[10px] hover:text-accent transition right-[4px] md:right-[20px]' +
+                    ' text-muted p-[12px]'}>
                 ✕
             </button>
             <button
                 onClick={()=>{nextPhoto()}}
                 aria-label={"Next photo"}
                 title={"Next photo"}
-                className={`cursor-pointer absolute text-[48px] text-muted right-[20px] hover:text-accent transition p-[12px]`}>
+                className={`cursor-pointer absolute text-[36px] md:text-[48px] text-muted right-[4px] md:right-[20px] hover:text-accent transition p-[12px]`}>
                 {'>'}
             </button>
         </div>

@@ -9,11 +9,11 @@ const HomePage = () => {
 
     return (
         <div>
-            <div className={`flex flex-col justify-center items-center h-screen sticky top-0`}>
+            <div className={`flex flex-col justify-center items-center h-dvh sticky top-0`}>
                 <div className={`flex flex-col justify-center items-center absolute z-10 
-                inset-x-0 bottom-40 font-primary 
+                inset-x-0 bottom-24 md:bottom-40 px-[16px] text-center font-primary 
                 `}>
-                    <h1 className={`text-5xl md:text-7xl font-light uppercase tracking-widest text-text
+                    <h1 className={`text-[32px] sm:text-5xl md:text-7xl font-light uppercase tracking-widest text-text
                     
                     `}>Oleh Ferents</h1>
                     <h3 className={`text-base md:text-2xl font-normal tracking-wide text-accent
@@ -27,16 +27,16 @@ const HomePage = () => {
 
 
             </div>
-            <div className={`bg-surface relative py-[80px] `}>
+            <div className={`bg-surface relative py-[48px] md:py-[80px]`}>
                 <div className={`relative min-h-[580px] overflow-hidden flex items-center `}>
                     {secondPhoto &&
-                        <div className={`absolute inset-0 bg-cover bg-center bg-fixed`}
+                        <div className={`absolute inset-0 bg-cover bg-center md:bg-fixed`}
                              style={{backgroundImage: `url(${secondPhoto.icon})`}}></div>
                     }
-                    <div className={`absolute inset-0 bg-linear-to-r from-surface to-transparent`}></div>
+                    <div className={`absolute inset-0 bg-surface/70 md:bg-transparent bg-linear-to-r from-surface to-transparent`}></div>
                     <div className={`flex flex-col gap-[24px] 
-                    relative z-10 w-[460px] pl-[48px] `}>
-                        <h2 className={`text-text text-5xl font-normal font-primary leading-[1.15]`}>
+                    relative z-10 w-full md:w-[460px] px-[24px] md:pr-0 md:pl-[48px]`}>
+                        <h2 className={`text-text text-[32px] md:text-5xl font-normal font-primary leading-[1.15]`}>
                             Where reality fades into <span className={`text-accent`}>fog </span>
                             and emotion takes shape.
                         </h2>
@@ -49,21 +49,21 @@ const HomePage = () => {
 
 
                 </div>
-                <div className={'flex gap-[24px] items-center min-h-[460px] w-full relative mt-[80px] ' +
+                <div className={'flex flex-col lg:flex-row gap-[24px] items-stretch lg:items-center lg:min-h-[460px] w-full relative mt-[48px] lg:mt-[80px]' +
                     'mb-[20px]'}>
 
-                        <div className={`w-[25%] self-stretch shrink-0 relative overflow-hidden bg-cover  
-                        bg-fixed`}
+                        <div className={`w-full h-[220px] lg:h-auto lg:w-[25%] self-stretch shrink-0 relative overflow-hidden bg-cover  
+                        lg:bg-fixed`}
 
                              style={{backgroundImage: `url(${collage})`}}>
 
                         </div>
 
                     <div className={`flex bg-linear-to-r from-surface-light from-0%
-                     to-surface to-100% w-full self-stretch items-center justify-center`}>
-                        <div className={`w-[45%] flex flex-col gap-[24px]`}>
+                     to-surface to-100% w-full self-stretch items-center justify-center py-[40px] lg:py-0`}>
+                        <div className={`w-full px-[24px] lg:px-0 lg:w-[45%] flex flex-col gap-[24px]`}>
                             <h2 className=
-                                    {`text-text font-primary text-5xl font-normal leading-[1.15]`}>
+                                    {`text-text font-primary text-[32px] md:text-5xl font-normal leading-[1.15]`}>
                                 Every piece tells a <span className={`text-accent`}>story </span>
                                 of its own.</h2>
                             <p className={`font-secondary text-[18px] leading-[1.7] text-muted`}>
